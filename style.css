@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    overflow-x: hidden;
+}
+
+
+header{
+    background-color: blue;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+nav{
+    background: aqua;
+    padding: 5px;
+    display: none;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    margin: 5px 10px
+}
+
+.menu-hamburguer{
+    width: 30px;
+}
+
+.menu-hamburguer span{
+    height: 2px;
+    width: 100%;
+    display: block;
+    background-color: white;
+    margin-bottom: 3px;
+}
+
+form label{
+    margin-left: 10px;
+}
+
+form input{
+    display: block;
+    margin: 5px 0 5px 10px;
+}
+
+form button {
+    margin-left: 10px;
+    border: none;
+    background: rgb(13, 218, 13);
+    padding: 5px;
+    font-style: italic;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
